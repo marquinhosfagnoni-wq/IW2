@@ -1,0 +1,91 @@
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: sans-serif;
+      background: #4b0b11;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 420px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      color: #111;
+    }
+
+    .campo {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 1rem;
+    }
+
+    label {
+      font-size: 13px;
+      color: #000000;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 15px;
+      border: 1px solid #000000;
+      border-radius: 8px;
+      outline: none;
+      transition: border 0.2s;
+    }
+
+    input:focus { border-color: #ffffff; }
+
+    .resultado {
+      display: none;
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: #e7dbdb;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .resultado p.label {
+      font-size: 13px;
+      color: #570c0c;
+      margin-bottom: 4px;
+    }
+
+    .resultado p.valor {
+      font-size: 28px;
+      font-weight: 500;
+      color: #570c0c;
+    }
+
+    .erro {
+      display: none;
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: #fdecea;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 14px;
+      color: #c0392b;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: medium;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      background-color: #570c0c;
+    }
